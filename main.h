@@ -3,6 +3,13 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include <ncurses.h>
+
+void win_setup();
+
+int menu();
+
+void game_over();
 
 #endif
